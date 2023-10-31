@@ -1,0 +1,29 @@
+/* Write your CSS here */
+.configuration-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #475569;
+  min-height: 15vh;
+  padding-left: 60px;
+  padding-bottom: 20px;
+}
+
+.layout-heading {
+  font-family: roboto;
+  font-weight: bold;
+  color: white;
+  font-size: 36px;
+}
+
+.check-box-container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 8px;
+}
+
+.label-text {
+  font-family: roboto;
+  color: white;
+  margin-left: 8px;
+  color: white;
+}

@@ -1,0 +1,15 @@
+/* Write your CSS here */
+.layout-container {
+  width: 50%;
+  margin: auto;
+  margin-top: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .layout-container {
+    width: 70%;
+  }
+}
